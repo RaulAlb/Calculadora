@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos2.css">
+	<script src="secreto.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header>
+		<h1>NUEVO ACORDEÓN</h1>
+	</header>
+	<main>
+		<textarea placeholder="Nada por aqui..." id="nota" onchange="Guardar(this.value,this.id)"></textarea>
+	</main>
+	<footer>
+		<div onclick="Home()"><h2>REGRESAR</h2></div>
+		<div onclick="SaveAlert()"><h2>GUARDAR</h2></div>
+	</footer>
+</body>
+</html>
